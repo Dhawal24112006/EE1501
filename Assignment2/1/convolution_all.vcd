@@ -1,0 +1,282 @@
+$date
+	Tue Apr 22 23:38:47 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_convolution_all $end
+$var wire 4 ! y9 [3:0] $end
+$var wire 4 " y8 [3:0] $end
+$var wire 4 # y7 [3:0] $end
+$var wire 4 $ y6 [3:0] $end
+$var wire 4 % y5 [3:0] $end
+$var wire 4 & y4 [3:0] $end
+$var wire 4 ' y3 [3:0] $end
+$var wire 4 ( y2 [3:0] $end
+$var wire 4 ) y15 [3:0] $end
+$var wire 4 * y14 [3:0] $end
+$var wire 4 + y13 [3:0] $end
+$var wire 4 , y12 [3:0] $end
+$var wire 4 - y11 [3:0] $end
+$var wire 4 . y10 [3:0] $end
+$var wire 4 / y1 [3:0] $end
+$var wire 4 0 y0 [3:0] $end
+$var reg 4 1 h0 [3:0] $end
+$var reg 4 2 h1 [3:0] $end
+$var reg 4 3 h2 [3:0] $end
+$var reg 4 4 h3 [3:0] $end
+$var reg 4 5 h4 [3:0] $end
+$var reg 4 6 h5 [3:0] $end
+$var reg 4 7 h6 [3:0] $end
+$var reg 4 8 h7 [3:0] $end
+$var reg 4 9 x0 [3:0] $end
+$var reg 4 : x1 [3:0] $end
+$var reg 4 ; x2 [3:0] $end
+$var reg 4 < x3 [3:0] $end
+$var reg 4 = x4 [3:0] $end
+$var reg 4 > x5 [3:0] $end
+$var reg 4 ? x6 [3:0] $end
+$var reg 4 @ x7 [3:0] $end
+$scope module uut $end
+$var wire 4 A h0 [3:0] $end
+$var wire 4 B h1 [3:0] $end
+$var wire 4 C h2 [3:0] $end
+$var wire 4 D h3 [3:0] $end
+$var wire 4 E h4 [3:0] $end
+$var wire 4 F h5 [3:0] $end
+$var wire 4 G h6 [3:0] $end
+$var wire 4 H h7 [3:0] $end
+$var wire 4 I x0 [3:0] $end
+$var wire 4 J x1 [3:0] $end
+$var wire 4 K x2 [3:0] $end
+$var wire 4 L x3 [3:0] $end
+$var wire 4 M x4 [3:0] $end
+$var wire 4 N x5 [3:0] $end
+$var wire 4 O x6 [3:0] $end
+$var wire 4 P x7 [3:0] $end
+$var wire 4 Q y9 [3:0] $end
+$var wire 4 R y8 [3:0] $end
+$var wire 4 S y7 [3:0] $end
+$var wire 4 T y6 [3:0] $end
+$var wire 4 U y5 [3:0] $end
+$var wire 4 V y4 [3:0] $end
+$var wire 4 W y3 [3:0] $end
+$var wire 4 X y2 [3:0] $end
+$var wire 4 Y y15 [3:0] $end
+$var wire 4 Z y14 [3:0] $end
+$var wire 4 [ y13 [3:0] $end
+$var wire 4 \ y12 [3:0] $end
+$var wire 4 ] y11 [3:0] $end
+$var wire 4 ^ y10 [3:0] $end
+$var wire 4 _ y1 [3:0] $end
+$var wire 4 ` y0 [3:0] $end
+$var reg 8 a temp0 [7:0] $end
+$var reg 8 b temp1 [7:0] $end
+$var reg 8 c temp10 [7:0] $end
+$var reg 8 d temp11 [7:0] $end
+$var reg 8 e temp12 [7:0] $end
+$var reg 8 f temp13 [7:0] $end
+$var reg 8 g temp14 [7:0] $end
+$var reg 8 h temp15 [7:0] $end
+$var reg 8 i temp2 [7:0] $end
+$var reg 8 j temp3 [7:0] $end
+$var reg 8 k temp4 [7:0] $end
+$var reg 8 l temp5 [7:0] $end
+$var reg 8 m temp6 [7:0] $end
+$var reg 8 n temp7 [7:0] $end
+$var reg 8 o temp8 [7:0] $end
+$var reg 8 p temp9 [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 p
+b0 o
+b0 n
+b100 m
+b111 l
+b1001 k
+b1010 j
+b110 i
+b0 h
+b0 g
+b0 f
+b0 e
+b0 d
+b0 c
+b11 b
+b1 a
+b1 `
+b11 _
+b0 ^
+b0 ]
+b0 \
+b0 [
+b0 Z
+b0 Y
+b110 X
+b1010 W
+b1001 V
+b111 U
+b100 T
+b0 S
+b0 R
+b0 Q
+b0 P
+b0 O
+b0 N
+b0 M
+b100 L
+b11 K
+b10 J
+b1 I
+b0 H
+b0 G
+b0 F
+b0 E
+b1 D
+b1 C
+b1 B
+b1 A
+b0 @
+b0 ?
+b0 >
+b0 =
+b100 <
+b11 ;
+b10 :
+b1 9
+b0 8
+b0 7
+b0 6
+b0 5
+b1 4
+b1 3
+b1 2
+b1 1
+b1 0
+b11 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+b110 (
+b1010 '
+b1001 &
+b111 %
+b100 $
+b0 #
+b0 "
+b0 !
+$end
+#20000
+b0 $
+b0 T
+b0 %
+b0 U
+b0 &
+b0 V
+b100 '
+b100 W
+b11 (
+b11 X
+b10 /
+b10 _
+b0 m
+b0 l
+b0 k
+b100 j
+b11 i
+b10 b
+b100 4
+b100 D
+b11 3
+b11 C
+b10 2
+b10 B
+b0 <
+b0 L
+b0 ;
+b0 K
+b0 :
+b0 J
+#40000
+b1 *
+b1 Z
+b10 +
+b10 [
+b11 ,
+b11 \
+b100 -
+b100 ]
+b101 .
+b101 ^
+b110 !
+b110 Q
+b111 "
+b111 R
+b1000 #
+b1000 S
+b111 $
+b111 T
+b110 %
+b110 U
+b101 &
+b101 V
+b11100001 g
+b11000010 f
+b10100011 e
+b10000100 d
+b1100101 c
+b1000110 p
+b100111 o
+b1000 n
+b100111 m
+b1000110 l
+b1100101 k
+b10000100 j
+b10100011 i
+b11000010 b
+b11100001 a
+b1111 8
+b1111 H
+b1111 7
+b1111 G
+b1111 6
+b1111 F
+b1111 5
+b1111 E
+b1111 4
+b1111 D
+b1111 3
+b1111 C
+b1111 2
+b1111 B
+b1111 1
+b1111 A
+b1111 @
+b1111 P
+b1111 ?
+b1111 O
+b1111 >
+b1111 N
+b1111 =
+b1111 M
+b1111 <
+b1111 L
+b1111 ;
+b1111 K
+b1111 :
+b1111 J
+b1111 9
+b1111 I
+#60000
